@@ -1,0 +1,27 @@
+@use 'colours';
+
+.principal-container{
+    background-color: colours.$dark;
+}
+
+.title{
+    animation-duration: 1s;
+    animation-name:from-top;
+    font-size:8vw;
+    background: -webkit-linear-gradient(#504a4a,#518cca,#e23636, #f78f3f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@keyframes from-top {
+    0% {
+        visibility: hidden;
+        opacity: 0;
+        transform: translateY(-30%);
+    }
+    100% {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+}

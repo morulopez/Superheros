@@ -1,0 +1,55 @@
+
+.hero-card{
+    img{
+        width:100%;
+        max-width:100%;
+    }
+
+    footer{
+        font-family:'Bangers';
+        background-color:#fff;
+        text-align: center;
+        padding:15px;
+        font-size: 2rem;
+    }
+}
+
+.hero-card{
+    transition:0.5s ease;
+}
+
+.hero-card{
+    .main-section:hover{
+        -webkit-box-shadow: 3px 0px 23px -1px rgba(255,255,255,1);
+        -moz-box-shadow: 3px 0px 23px -1px rgba(255,255,255,1);
+        box-shadow: 3px 0px 23px -1px rgba(255,255,255,1);
+        cursor:pointer;
+    }
+}
+
+.hero-card{
+    section{
+        main{
+            top:10px;
+            position: absolute;
+            height:100%;
+            width:100%;
+            color:#fff;
+            padding:10px;
+            font-size:1.4rem;
+            transition:1s;
+            &:hover{
+                box-shadow:0 0 0 300px rgba(0,0,0,0.8) inset;
+            }
+            .info-hero-card{
+                opacity:0;
+                transform: escale(0);
+                transition:0.8s;
+                &:hover{
+                    opacity:1;
+                    transform: escale(1);
+                }
+            }
+        }
+    } 
+}
