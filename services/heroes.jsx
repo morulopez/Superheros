@@ -4,7 +4,7 @@ export function getHeroes(){
     {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key':'API-KEY',
+            'X-RapidAPI-Key':'7b9240adaamsh9935e2fe8867f32p1c0bc2jsn65fd37942a89',
             'X-RapidAPI-Host': 'superhero-search.p.rapidapi.com'
         }
     })

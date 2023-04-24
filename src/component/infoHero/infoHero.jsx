@@ -46,9 +46,9 @@ export function InfoHero(props){
             <section>
                 <span className="info-title">Aliases: </span>
                 {
-                    biography.aliases.map((alias)=>{
+                    biography.aliases.map((alias,index)=>{
                         return (
-                            <span className='aliases'>
+                            <span key={index} className='aliases'>
                                 {alias}
                             </span>
                         )

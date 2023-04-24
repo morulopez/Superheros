@@ -9,7 +9,9 @@ const HeroesFetch = () =>{
             setDataHeroes(res)
         })
         .finally(()=>{
-            setIsFetching(false);
+            setTimeout(()=>{
+                setIsFetching(false);
+            },2000)
         })
     },[])
     return {dataHeroes,isFetching};

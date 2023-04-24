@@ -6,7 +6,7 @@ export function CardHero(props){
     const elementRef = getElementByRef();
     return(
         <div className="hero-card all-bases" key={id} ref={elementRef}>
-            <section class="main-section">
+            <section className="main-section">
                 <header>
                     <img src={images.lg} className="hero-img" alt={`Image ${biography.firstAppearance}`} />
                 </header>
